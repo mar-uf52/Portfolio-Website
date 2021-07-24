@@ -12,10 +12,211 @@
     <link rel="stylesheet" href="css/style.css">
     <title>Portfolio-Website By Maruf A. Ariyan</title>
 </head>
-<body>
+<body class="bg-light">
     
-    <h1>Hello World!!</h1>
-    
+    <!-- Navigation section start -->
+    <section class="navigation shadow-sm">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light py-2">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><span class="text-danger fw-bolder fs-3">MARUF</span></a>
+                  <button class="navbar-toggler menu bg-danger " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto text-end">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Testimonials</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </section>
+    <!-- Navigation section end -->
+
+    <!-- home section start -->
+    <section class="header pt-5" id="home">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center">
+                   <div>
+                    <p class="text-muted lead">Hello I'm</p>
+                    <h1 class="text-danger fw-bolder">WEB DEVELOPER</h1>
+                    <h3>Maruf A. Ariyan</h3>
+                    <p class="text-muted my-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsum, voluptates. Laboriosam repellat facere, doloribus aut nam quam quod sequi blanditiis!</p>
+                    <button type="button" class="btn btn-danger fw-normal">My Work</button>
+                   </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center order-first order-md-last mb-5 mb-md-0"> 
+                     <img src="img/profile.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- home section end -->
+
+    <!-- About section start -->
+    <section class="about" id="about">
+        <div class="container py-5 ">
+            <h2 class="fw-bolder text-center py-5">About Me</h2>
+            <div class="row">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <h4>Lorem ipsum dolor sit amet consectetur <br> adipisicing elit.</h4>
+                    <p class="text-muted my-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat obcaecati deleniti quia sequi reiciendis rerum quisquam a repudiandae? Repellendus unde laborum non inventore eum esse.</p>
+                    <div class="row">
+                        <div class="col-sm-4 text-center">
+                            <span class="fw-bolder fs-2">100</span>
+                            <p class="text-muted">PROJECT COMPLETED</p>
+                        </div>
+                        <div class="col-sm-4 text-center">
+                            <span class="fw-bolder fs-2">90</span>
+                            <p class="text-muted">HAPPY CLIENTS</p>
+                        </div>
+                        <div class="col-sm-4 text-center">
+                            <span class="fw-bolder fs-2">95</span>
+                            <p class="text-muted">POSITIVE REVIEW</p>
+                        </div>
+                        <div class="d-flex align-items-center mt-3">
+                            <button type="button" class="btn btn-danger me-4">Download CV</button>
+                        <div class="icons d-flex flex-row">
+                            <i class="fab fa-facebook-f mx-2"></i>
+                            <i class="fab fa-twitter mx-2"></i>
+                            <i class="fab fa-instagram mx-2"></i>
+                            <i class="fab fa-linkedin-in mx-2"></i>
+                        </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-6">
+                   <h6 class="mb-3">HTML</h6>
+                   <div class="progress" style="height: 10px;">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <h6 class="my-3">CSS</h6>
+                   <div class="progress" style="height: 10px;">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <h6 class="my-3">JavaScript</h6>
+                   <div class="progress" style="height: 10px;">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  <h6 class="my-3">Bootstrap</h6>
+                   <div class="progress" style="height: 10px;">
+                    <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About section end -->
+
+    <!-- service section start -->
+    <section class="services" id="services">
+        <div class="container py-5">
+            <h2 class="fw-bolder text-center py-5">What I Do</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col text-center">
+                  <div class="card h-100 service-col">
+                    <i class="fas fa-code text-center fs-1 text-danger pt-5"></i>
+                    <div class="card-body">
+                      <h5 class="card-title my-3">Web Development</h5>
+                      <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit numquam incidunt corrupti dicta nemo aspernatur at quia sint nihil? Est.</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col text-center">
+                  <div class="card h-100 service-col">
+                    <i class="fas fa-lightbulb text-center fs-1 text-danger pt-5"></i>
+                    <div class="card-body">
+                      <h5 class="card-title my-3">Creative Design</h5>
+                      <p class="card-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi maxime officia porro minus ea nemo incidunt fugit ad ipsa sit!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col text-center">
+                  <div class="card h-100 service-col">
+                    <i class="fas fa-image text-center fs-1 text-danger pt-5"></i>
+                    <div class="card-body">
+                      <h5 class="card-title my-3">Photoshop</h5>
+                      <p class="card-text text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione incidunt, libero aperiam quibusdam illum minus odio veniam atque rem officiis?</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <!-- service section end -->
+
+    <!-- portfolio section start -->
+    <section class="portfolio" id="portfolio">
+        <div class="container py-5">
+            <h2 class="fw-bolder text-center py-5">Latest Work</h2>
+             <div class="row">
+                 <div class="col-12 col-sm-12 col-md-4">
+                    <img class="w-100" src="img/portfolio/1.jpg" alt="">
+                    <h6 class="pt-3">Team Section</h6>
+                    <a class="text-decoration-none text-danger" href="#">Live Demo</a>
+                 </div>
+                 <div class="col-12 col-sm-12 col-md-4">
+                    <img class="w-100" src="img/portfolio/2.jpg" alt="">
+                    <h6 class="pt-3">App Landing Page</h6>
+                    <a class="text-decoration-none text-danger" href="#">Live Demo</a>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4">
+                    <img class="w-100" src="img/portfolio/3.jpg" alt="">
+                    <h6 class="pt-3">Creative Team Section</h6>
+                    <a class="text-decoration-none text-danger" href="#">Live Demo</a>
+                </div>
+             </div>
+             <div class="row mt-4">
+                <div class="col-12 col-sm-12 col-md-4">
+                   <img class="w-100" src="img/portfolio/4.jpg" alt="">
+                   <h6 class="pt-3">Toggle Pricing Table</h6>
+                   <a class="text-decoration-none text-danger" href="#">Live Demo</a>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4">
+                   <img class="w-100" src="img/portfolio/5.jpg" alt="">
+                   <h6 class="pt-3">Bootstrap 5 Image Gallery</h6>
+                   <a class="text-decoration-none text-danger" href="#">Live Demo</a>
+               </div>
+               <div class="col-12 col-sm-12 col-md-4">
+                   <img class="w-100" src="img/portfolio/6.jpg" alt="">
+                   <h6 class="pt-3">Filterable Image Gallery</h6>
+                   <a class="text-decoration-none text-danger" href="#">Live Demo</a>
+               </div>
+            </div>
+        </div>
+    </section>
+    <!-- portfolio section end -->
+
+    <!-- freelancer available section start -->
+    <section class="freelancer py-5" id="freelancer">
+        <div class="container py-5 text-center bg-danger">
+            <p class="text-light fs-5 mt-4">Do You Have Any Project?</p>
+            <h1 class="text-white">I'm Available For Freelancing Project!</h1>
+            <button type="button" class="btn btn-outline-light mt-3 mb-4">Hire Me</button>
+        </div>
+    </section>
+    <!-- freelancer available section end-->
+
 
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
