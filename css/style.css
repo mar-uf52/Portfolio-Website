@@ -11,4 +11,12 @@ body{
 .service-col{
     border: none;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    
+}
+.service-col:hover{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transition: 0.5s ease-in-out;
+}
+footer p{
+    font-size: 16px;
 }
